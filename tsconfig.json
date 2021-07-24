@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"target": "ESNEXT",
+		"module": "commonjs",
+		"outDir": "./dist",
+		"strict": true,
+		"noImplicitAny": true,
+		"strictNullChecks": true,
+		"strictFunctionTypes": true,
+		"strictBindCallApply": true,
+		"strictPropertyInitialization": true,
+		"noImplicitThis": true,
+		"alwaysStrict": true,
+		"moduleResolution": "node",
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"sourceMap": true,
+		"newLine": "lf",
+		"resolveJsonModule": true,
+		"allowSyntheticDefaultImports": true
+	},
+	"include": ["./src"],
+	"exclude": ["./script", "./src/tests", "./src/**/tests", "./src/**/**/tests"]
+}
